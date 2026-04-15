@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Course Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Course Organizer</h1>
+        <nav>
+            <ul>
+                <li><a href="endex.html">Home</a></li>
+                <li><a href="courses.html">My Courses</a></li>
+                <li><a href="add.html">Add Course</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section>
+        <h2>Add New Course</h2>
+        <form>
+            <label for="cname">Course Name:</label>
+            <input type="text" id="cname" name="course_name" required>
+
+            <label for="inst">Lecturer:</label>
+            <input type="text" id="inst" name="instructor">
+
+            <label for="hrs">Credit hours:</label>
+            <input type="number" id="hrs" name="hours">
+
+            <label for="note">Notes:</label>
+            <textarea id="note" name="notes"></textarea>
+
+            <button type="submit">Save The Course</button>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <p>all rights reserved</p>
+    </footer>
+</body>
+</html>
